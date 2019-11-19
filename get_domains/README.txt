@@ -1,9 +1,33 @@
-Get Domain
+INTRODUCTION:
+------------
 
-Prerequisites
+This module contains script files to get domains.
+
+
+REQUIREMENTS:
+------------
+
+This module requires the following modules:
+
+ * Python 2.7.x
+   Libraries
+  * requests
+  * sys
+  * json
+  * time
+
+ * The scripts must be run outside sddc-manager environment.
+
+ * DNS resolution must be done for sddc-manager.
+
+
+PREREQUSITES:
+--------------
 The following data is required
 
 ID of the domain
 
-Usage:
-    python get_domains.py <hostname> <username> <password>
+
+USAGE:
+-----
+Usage:	python get_domains.py <hostname> <username> <password>
